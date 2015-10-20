@@ -1,7 +1,7 @@
 {
   "name": "ctly-node",
-  "version": "1.0.0",
-  "description": "A node wrapper around Contactually&#39;s public V2 HTTP API.",
+  "version": "0.0.1",
+  "description": "A node wrapper around Contactually's public V2 HTTP API.",
   "main": "dist/index.js",
   "files": [
     "bin/",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com//ctly-node.git"
+    "url": "git+https://github.com/acurry/ctly-node.git"
   },
   "keywords": [
     "node",
@@ -39,9 +39,9 @@
   "author": "Andrew Curry <andrew.d.curry@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com//ctly-node/issues"
+    "url": "https://github.com/acurry/ctly-node/issues"
   },
-  "homepage": "https://github.com//ctly-node#readme",
+  "homepage": "https://github.com/acurry/ctly-node#readme",
   "devDependencies": {
     "eslint": "*",
     "babel-eslint": "*",
