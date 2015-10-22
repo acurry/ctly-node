@@ -12,8 +12,8 @@
     "lint": "eslint src test",
     "check": "npm run lint -s && dependency-check package.json --entry src",
     "watch": "watch 'npm run build' src test",
-    "test": "babel-node test/*.js | tspec",
-    "test-watch": "watch 'babel-node test/*.js | tspec' src test",
+    "test": "babel-node test/*.js | tap-dot",
+    "test-watch": "watch 'babel-node test/*.js | tap-dot' src test",
     "prebuild": "npm run check -s && npm run clean -s",
     "build": "babel --optional runtime src -d dist",
     "postbuild": "npm run test -s",
@@ -44,17 +44,18 @@
   },
   "homepage": "https://github.com/acurry/ctly-node#readme",
   "devDependencies": {
-    "eslint": "*",
-    "babel-eslint": "*",
     "babel": "*",
+    "babel-eslint": "*",
     "coveralls": "*",
-    "isparta": "*",
-    "tape": "*",
-    "tap-spec": "*",
-    "rimraf": "*",
     "dependency-check": "*",
-    "watch": "*",
-    "doctoc": "*"
+    "doctoc": "*",
+    "eslint": "*",
+    "isparta": "*",
+    "rimraf": "*",
+    "tap-dot": "^1.0.0",
+    "tap-spec": "*",
+    "tape": "*",
+    "watch": "*"
   },
   "dependencies": {
     "babel-runtime": "*"
