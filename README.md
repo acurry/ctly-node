@@ -6,7 +6,7 @@
 [![Dependency Status][depstat-image]][depstat-url]
 [![Downloads][download-badge]][npm-url]
 
-> A node wrapper around Contactually&#39;s public V2 HTTP API.
+> A Node.js wrapper around Contactually's public V2 HTTP API.
 
 ## Install
 
